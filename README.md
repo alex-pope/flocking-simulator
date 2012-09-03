@@ -4,4 +4,4 @@ A mostly complete javascript demo of "birds" either flocking around a changing r
 
 Some things that I would like to add:
 - Text Boxes to view / change various variables that affect the birds behaviors
-- Color based on direction maybe.
+- Color based on direction maybe
