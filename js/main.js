@@ -175,30 +175,30 @@ window.Flocking = ( function(Flocking, undefined) {
     		// _canvas,
     		// Flocking.BOUNDS_MIN.x,
     		// Flocking.BOUNDS_MIN.y,
-			// Flocking.BOUNDS_MAX.x,
-			// Flocking.BOUNDS_MAX.y);
-		// _bContext.restore();
-		
-		_bContext.clearRect(Flocking.x, Flocking.y, Flocking.width, Flocking.height);
-		
-		_fps.render();
-		_flock.render();
-		
-		// copy buffer to visible canvas
-		_context.save();
-		_context.globalCompositeOperation = 'copy';
-		_context.drawImage(
-			_bCanvas,
-			Flocking.x,
-			Flocking.y,
-			Flocking.width,
-			Flocking.height
-			);
-		_context.restore();
-		
-		return;
-		
-    }
-    
-    return Flocking;
+		// Flocking.BOUNDS_MAX.x,
+		// Flocking.BOUNDS_MAX.y);
+	// _bContext.restore();
+
+	_bContext.clearRect(Flocking.x, Flocking.y, Flocking.width, Flocking.height);
+	_fps.render();
+	_flock.render();
+	
+	// copy buffer to visible canvas
+	_context.save();
+	_context.globalCompositeOperation = 'copy';
+	_context.drawImage(
+		_bCanvas,
+		Flocking.x,
+		Flocking.y,
+		Flocking.width,
+		Flocking.height
+		);
+	
+	_context.restore();
+	
+	return;
+	}
+
+	return Flocking;
+
 } )(window.Flocking || {});
