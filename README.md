@@ -6,4 +6,4 @@ Some things that I would like to add:
 - Text Boxes to view / change various variables that affect the birds behaviors
 - Color based on direction maybe
 
-A working demo can be viewed here: http://jsfiddle.net/XwnJC/10/
+A working demo can be viewed here: http://alex-pope.github.com/
