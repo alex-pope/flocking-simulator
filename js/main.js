@@ -2,9 +2,9 @@
 // TODO: make separate update function, though introduces interpolation problem
 
 window.Flocking = ( function(Flocking, undefined) {
-    // globals of module
-    var _bCanvas,
-		_bContext,
+	    // globals of module
+	    var _bCanvas,
+	    _bContext,
 		_canvas,
         _context,
         _birdCanvas,
@@ -121,7 +121,7 @@ window.Flocking = ( function(Flocking, undefined) {
             return;
 		}
 		
-        // stupid shim is stupid
+        // shim to cover different browsers
         window.requestAnimationFrame = (
 			window.requestAnimationFrame ||
             window.webkitRequestAnimationFrame ||
