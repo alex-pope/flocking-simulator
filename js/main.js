@@ -24,8 +24,8 @@ window.Flocking = ( function(Flocking, undefined) {
 		_bContext.fillStyle = '#7F7F7F';
 		_bContext.font = 'bold 32px sans-serif';
 		
-		_canvas = document.createElement('canvas');
-		_canvas.id = 'canvas';
+		_canvas = document.getElementById('canvas');
+		//_canvas.id = 'canvas';
 		_canvas.width = Flocking.width;
 		_canvas.height = Flocking.height;
 		_canvas.changeTarget = true; // used for switching between mouse target or random
