@@ -56,7 +56,7 @@ window.Flocking = ( function(Flocking, undefined) {
 			
 		};
 		
-		document.body.appendChild(_canvas);
+		//document.body.appendChild(_canvas);
 		
 		_context = _canvas.getContext('2d');
 		
