@@ -6,4 +6,4 @@ Some things that I would like to add:
 * Text Boxes to view / change various variables that affect the birds behaviors
 * Color based on direction maybe
 
-A working demonstration can be viewed here: http://alex-pope.github.com/flocking/.
+A working demonstration can be viewed at http://alex-pope.github.com/flocking/.
