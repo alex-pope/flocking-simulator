@@ -9,8 +9,8 @@ window.Flocking = ( function(Flocking, undefined) {
 		
 		return this;
 	};
-	
+
 	Flocking.Point = Point;
-	
+
 	return Flocking;
 } )(window.Flocking || {});
