@@ -12,20 +12,21 @@ window.Flocking = ( function(Flocking, undefined) {
 		
 		return this;
 	};
-	
+
 	function update(td) {
 		this.ticks += td;
-		
+
 		if (this.ticks >= this.tickLimit) {
 			this.ticks -= this.tickLimit;
 			this.fps = td !== 0 ? ((1000 / td) | 0) : 1000;
 		}
-		
+
 		return;
 	};
-	
+
 	Flocking.FpsDisplay = FpsDisplay;
 	Flocking.FpsDisplay.prototype.update = update;
-	
+
 	return Flocking;
+	
 } )(window.Flocking || {});
