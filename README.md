@@ -1,5 +1,8 @@
 Flocking Simulator
 ==================
+
+![ScreenShot](https://raw.github.com/alex-pope/flocking-simulator/master/img/flocking-simulator.png)
+
 A Javascript demonstration of "birds" either flocking around a changing random target or, using a mouse click, toggle to flocking around the cursor.
 
 Some things that I would like to add:
