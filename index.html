@@ -1,16 +1,20 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Flocking Simulator</title>
-		<script id="point" src="./js/point.js" type="text/javascript"></script>
-		<script id="constants" src="./js/constants.js" type="text/javascript"></script>
-		<script id="fpsDisplay" src="./js/fpsDisplay.js" type="text/javascript"></script>
-		<script id="bird" src="./js/bird.js" type="text/javascript"></script>
-		<script id="flock" src="./js/flock.js" type="text/javascript"></script>
-		<script id="main" src="./js/main.js" type="text/javascript"></script>
-	</head>	
-	<body onload="Flocking.init()">
-		This is a work in progress.<br />
-		Clicking on the demo toggles between the flock following the mouse or a changing, random location.<br /><br />
-		<canvas id="canvas" width="960px" height="540px" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.25);"></canvas>
-	</body>
+<head>
+	<title>Flocking Simulator</title>
+	<script id="point" src="./js/point.js" type="text/javascript"></script>
+	<script id="graphics" src="./js/graphics.js" type="text/javascript"></script>
+	<script id="fps" src="./js/fps.js" type="text/javascript"></script>
+	<script id="bird" src="./js/bird.js" type="text/javascript"></script>
+	<script id="flock" src="./js/flock.js" type="text/javascript"></script>
+	<script id="graphic" src="./js/graphic.js" type="text/javascript"></script>
+	<script id="fps_graphic" src="./js/fps_graphic.js" type="text/javascript"></script>
+	<script id="flock_graphic" src="./js/flock_graphic.js" type="text/javascript"></script>
+	<script id="main" src="./js/main.js" type="text/javascript"></script>
+	<link type = "text/css" rel="stylesheet" href="./css/main.css"></link>
+</head>	
+<body onload="Flocking.onLoad()">
+	This is a work in progress.<br />
+	Clicking on the demo toggles between the flock following the mouse or a changing, random location.<br /><br />
+</body>
 </html>
